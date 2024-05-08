@@ -108,16 +108,17 @@ article{
 .school{
     width:300px;
     height:300px;
-    background-color: #2a2828;
+    background-color: black;
     box-shadow:2px 5px 4px #009900;
     padding:20px;
     border-radius: 10%;
 }
 
+
 .college{
     width:300px;
     height:300px;
-    background-color: #2a2828;
+    background-color: black;
     box-shadow:2px 5px 4px #009900;
     padding:20px;
     border-radius: 10%;
@@ -126,12 +127,30 @@ article{
 .life-choices{
     width:300px;
     height:300px;
-    background-color: #2a2828;
+    background-color:black ;
     box-shadow:2px 5px 4px #009900;
     padding:20px;
     border-radius: 10%;
 }
 
+
+.school img{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+}
+
+.college img{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+}
+
+.life-choices img{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+}
 
 .timeline-start{
     background-color: #009900;
@@ -153,3 +172,71 @@ article{
     height:100%;
     margin:auto;
 }
+
+
+article i{
+    font-size:50px;
+    padding:5px;
+    transition: 1s;
+}
+
+.skills{
+    width:200px;
+    height:200px;
+    background-color: black;
+    border-radius:50%;
+    z-index:0;
+    box-shadow: none;
+    text-align: center;
+}
+
+.la-html5:hover{
+    cursor: pointer;
+    color:red;
+    background-color: white;
+    border-radius:50%;
+    box-shadow: 2px 3px red;
+}
+
+.la-css3-alt:hover{
+    cursor: pointer;
+    color:dodgerblue;
+    background-color: white;
+    border-radius:50%;
+    box-shadow: 2px 3px dodgerblue;
+}
+
+.la-git:hover{
+    cursor: pointer;
+    color:orangered;
+    background-color: white;
+    border-radius:50%;
+    box-shadow: 2px 3px orangered;
+}
+
+.la-figma:hover{
+    cursor: pointer;
+    color:lightseagreen;
+    background-color: white;
+    border-radius:50%;
+    box-shadow: 2px 3px lightseagreen;
+}
+
+.la-bootstrap:hover{
+    cursor: pointer;
+    color:purple;
+    background-color: white;
+    border-radius:50%;
+    box-shadow: 2px 3px purple;
+}
+
+.la-users:hover{
+    cursor: pointer;
+    color:blue;
+    background-color: white;
+    border-radius:50%;
+    box-shadow: 2px 3px blue;
+}
+
+
+
