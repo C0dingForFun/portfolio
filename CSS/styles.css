@@ -188,9 +188,10 @@ article i{
     z-index:0;
     box-shadow: none;
     text-align: center;
+    transition: 1.5s;
 }
 
-.la-html5:hover{
+.skills:hover> .la-html5{
     cursor: pointer;
     color:red;
     background-color: white;
@@ -198,7 +199,7 @@ article i{
     box-shadow: 2px 3px red;
 }
 
-.la-css3-alt:hover{
+.skills:hover > .la-css3-alt{
     cursor: pointer;
     color:dodgerblue;
     background-color: white;
@@ -206,7 +207,7 @@ article i{
     box-shadow: 2px 3px dodgerblue;
 }
 
-.la-git:hover{
+.skills:hover > .la-git{
     cursor: pointer;
     color:orangered;
     background-color: white;
@@ -214,7 +215,7 @@ article i{
     box-shadow: 2px 3px orangered;
 }
 
-.la-figma:hover{
+.skills:hover > .la-figma{
     cursor: pointer;
     color:lightseagreen;
     background-color: white;
@@ -222,7 +223,7 @@ article i{
     box-shadow: 2px 3px lightseagreen;
 }
 
-.la-bootstrap:hover{
+.skills:hover > .la-bootstrap{
     cursor: pointer;
     color:purple;
     background-color: white;
@@ -230,7 +231,7 @@ article i{
     box-shadow: 2px 3px purple;
 }
 
-.la-users:hover{
+.skills:hover > .la-users{
     cursor: pointer;
     color:blue;
     background-color: white;
@@ -238,5 +239,34 @@ article i{
     box-shadow: 2px 3px blue;
 }
 
+h4{
+    color:#009900;
+}
 
+.email > a{
+    text-decoration: none;
+    color:white;
+}
 
+.email > a:hover{
+    text-decoration: underline;
+}
+
+button{
+    padding:5px;
+    background-color: transparent;
+    color:white;
+    border-radius:30px;
+    transition: 1s;
+}
+
+button:hover{
+    background-color: #009900;
+    box-shadow:5px 5px rgb(0, 0, 0);
+    color: white;
+    transform: translateY(-5px);
+}
+
+.portfolio a:hover{
+    color: white;
+}
