@@ -11,9 +11,6 @@ html{
 body{
     font-family:"Cascadia Mono";
     color:white;
-    /* background-image:url('https://c0dingforfun.github.io/portfolioimg/output-onlinegiftools.gif');
-    background-size: cover;
-    background-attachment: fixed; */
     background-color: #1D1D1D;
 }
 
@@ -159,6 +156,7 @@ article{
     margin:auto;
 }
 
+
 .timeline-middle{
     background-color: #009900;
     width:2px;
@@ -173,6 +171,13 @@ article{
     margin:auto;
 }
 
+.timeline-start i{
+    color:#009900;
+}
+
+.timeline-end i{
+    color:#009900;
+}
 
 article i{
     font-size:50px;
@@ -191,7 +196,7 @@ article i{
     transition: 1.5s;
 }
 
-.skills:hover> .la-html5{
+.skills:hover > .la-html5{
     cursor: pointer;
     color:red;
     background-color: white;
@@ -252,7 +257,7 @@ h4{
     text-decoration: underline;
 }
 
-button{
+.send button{
     padding:5px;
     background-color: transparent;
     color:white;
@@ -260,13 +265,23 @@ button{
     transition: 1s;
 }
 
-button:hover{
+.send button:hover{
     background-color: #009900;
     box-shadow:5px 5px rgb(0, 0, 0);
     color: white;
     transform: translateY(-5px);
 }
 
-.portfolio a:hover{
-    color: white;
+.projects button{
+    color:white;
+}
+
+.projects button:hover{
+    color:white;
+    background-color: #009900;
+}
+
+
+.carousel-indicators  button{
+    padding:5px;
 }
