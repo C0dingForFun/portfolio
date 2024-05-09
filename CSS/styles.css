@@ -32,7 +32,7 @@ section{
 }
 
 #banner{
-    padding-top:25vh;
+    padding-top:15vh;
 }
 
 #banner img{
@@ -284,8 +284,6 @@ article i{
     box-shadow: 2px 3px greenyellow;
 }
 
-
-
 h4{
     color:#009900;
 }
@@ -321,9 +319,4 @@ h4{
 .projects button:hover{
     color:white;
     background-color: #009900;
-}
-
-
-.carousel-indicators  button{
-    padding:5px;
 }
