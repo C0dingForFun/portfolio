@@ -32,7 +32,12 @@ section{
 }
 
 #banner{
-    padding-top:30vh;
+    padding-top:25vh;
+}
+
+#banner img{
+    width:80%;
+    height:auto;
 }
 
 ul #n a{
@@ -196,6 +201,9 @@ article i{
     transition: 1.5s;
 }
 
+.skills:hover{
+    cursor:pointer;
+}
 .skills:hover > .la-html5{
     cursor: pointer;
     color:red;
@@ -243,6 +251,40 @@ article i{
     border-radius:50%;
     box-shadow: 2px 3px blue;
 }
+
+.skills:hover > .la-mobile{
+    cursor: pointer;
+    color:black;
+    background-color: white;
+    border-radius:50%;
+    box-shadow: 2px 3px black;
+}
+
+.skills:hover > .la-microphone{
+    cursor: pointer;
+    color:#696969;
+    background-color: white;
+    border-radius:50%;
+    box-shadow: 2px 3px #696969;
+}
+
+.skills:hover > .la-assistive-listening-systems{
+    cursor: pointer;
+    color:greenyellow;
+    background-color: white;
+    border-radius:50%;
+    box-shadow: 2px 3px greenyellow;
+}
+
+.skills:hover > .la-assistive-listening-systems{
+    cursor: pointer;
+    color:greenyellow;
+    background-color: white;
+    border-radius:50%;
+    box-shadow: 2px 3px greenyellow;
+}
+
+
 
 h4{
     color:#009900;
