@@ -36,10 +36,15 @@ section{
 }
 
 #banner img{
-    width:80%;
+    margin-top:10px;
+    width:70%;
     height:auto;
 }
 
+#about img{
+    width:70%;
+    height:auto;
+}
 ul #n a{
     color:white;
     font-size:23px;
@@ -66,6 +71,7 @@ ul #n a:hover{
 }
 
 h2{
+    font-size:35px;
     color:#009900;
 }
 
@@ -201,9 +207,42 @@ article i{
     transition: 1.5s;
 }
 
+#html:hover{
+    box-shadow: 2px 3px red;
+}
+
+#css:hover{
+    box-shadow: 2px 3px dodgerblue;
+}
+
+#git:hover{
+    box-shadow: 2px 3px orangered;
+}
+
+#bootstrap:hover{
+    box-shadow: 2px 3px purple;
+}
+
+#team:hover{
+    box-shadow: 2px 3px blue;
+}
+
+#ears:hover{
+    box-shadow: 2px 3px yellowgreen;
+}
+
+#mobile:hover{
+    box-shadow: 2px 3px burlywood;
+}
+
+#microphone:hover{
+    box-shadow: 2px 3px #696969;
+}
+
 .skills:hover{
     cursor:pointer;
 }
+
 .skills:hover > .la-html5{
     cursor: pointer;
     color:red;
@@ -228,14 +267,6 @@ article i{
     box-shadow: 2px 3px orangered;
 }
 
-.skills:hover > .la-figma{
-    cursor: pointer;
-    color:lightseagreen;
-    background-color: white;
-    border-radius:50%;
-    box-shadow: 2px 3px lightseagreen;
-}
-
 .skills:hover > .la-bootstrap{
     cursor: pointer;
     color:purple;
@@ -252,12 +283,20 @@ article i{
     box-shadow: 2px 3px blue;
 }
 
-.skills:hover > .la-mobile{
+.skills:hover > .la-assistive-listening-systems{
     cursor: pointer;
-    color:black;
+    color:yellowgreen;
     background-color: white;
     border-radius:50%;
-    box-shadow: 2px 3px black;
+    box-shadow: 2px 3px yellowgreen;
+}
+
+.skills:hover > .la-mobile{
+    cursor: pointer;
+    color:burlywood;
+    background-color: white;
+    border-radius:50%;
+    box-shadow: 2px 3px burlywood;
 }
 
 .skills:hover > .la-microphone{
@@ -266,22 +305,6 @@ article i{
     background-color: white;
     border-radius:50%;
     box-shadow: 2px 3px #696969;
-}
-
-.skills:hover > .la-assistive-listening-systems{
-    cursor: pointer;
-    color:greenyellow;
-    background-color: white;
-    border-radius:50%;
-    box-shadow: 2px 3px greenyellow;
-}
-
-.skills:hover > .la-assistive-listening-systems{
-    cursor: pointer;
-    color:greenyellow;
-    background-color: white;
-    border-radius:50%;
-    box-shadow: 2px 3px greenyellow;
 }
 
 h4{
@@ -319,4 +342,52 @@ h4{
 .projects button:hover{
     color:white;
     background-color: #009900;
+}
+
+@media screen and (max-width:720px) {
+    .timeline-start{
+        background-color: transparent;
+        width:2px;
+        height:100%;
+        margin:auto;
+    }
+    
+    
+    .timeline-middle{
+        background-color: transparent;
+        width:2px;
+        height:100%;
+        margin:auto;
+    }
+    
+    .timeline-end{
+        background-color: transparent;
+        width:2px;
+        height:100%;
+        margin:auto;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .timeline-start{
+        background-color: transparent;
+        width:2px;
+        height:100%;
+        margin:auto;
+    }
+    
+    
+    .timeline-middle{
+        background-color: transparent;
+        width:2px;
+        height:100%;
+        margin:auto;
+    }
+    
+    .timeline-end{
+        background-color: transparent;
+        width:2px;
+        height:100%;
+        margin:auto;
+    }
 }
