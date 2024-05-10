@@ -391,6 +391,8 @@ h4{
     }
 
     #projects img{
+        display:flex;
+        justify-content: center;
         width:250px;
         height:250px;
     }
@@ -422,9 +424,6 @@ h4{
 
     #projects img{
         padding: 10px;
-        position: relative;
-        left: 0;
-        right: 0;
         width:250px;
         height:250px;
     }
