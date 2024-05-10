@@ -45,6 +45,11 @@ section{
     width:70%;
     height:auto;
 }
+
+#about h3{
+    color: #009900;
+}
+
 ul #n a{
     color:white;
     font-size:23px;
@@ -209,34 +214,42 @@ article i{
 
 #html:hover{
     box-shadow: 2px 3px red;
+    text-shadow:2px 2px red ;
 }
 
 #css:hover{
     box-shadow: 2px 3px dodgerblue;
+    text-shadow:2px 2px dodgerblue ;
 }
 
 #git:hover{
     box-shadow: 2px 3px orangered;
+    text-shadow:2px 2px orangered ;
 }
 
 #bootstrap:hover{
     box-shadow: 2px 3px purple;
+    text-shadow:2px 2px purple;
 }
 
 #team:hover{
     box-shadow: 2px 3px blue;
+    text-shadow:2px 2px blue ;
 }
 
 #ears:hover{
     box-shadow: 2px 3px yellowgreen;
+    text-shadow:2px 2px yellowgreen ;
 }
 
 #mobile:hover{
-    box-shadow: 2px 3px burlywood;
+    box-shadow: 2px 3px brown;
+    text-shadow:2px 2px brown ;
 }
 
 #microphone:hover{
     box-shadow: 2px 3px #696969;
+    text-shadow:2px 2px #696969 ;
 }
 
 .skills:hover{
@@ -293,10 +306,10 @@ article i{
 
 .skills:hover > .la-mobile{
     cursor: pointer;
-    color:burlywood;
+    color:brown;
     background-color: white;
     border-radius:50%;
-    box-shadow: 2px 3px burlywood;
+    box-shadow: 2px 3px brown;
 }
 
 .skills:hover > .la-microphone{
@@ -309,6 +322,11 @@ article i{
 
 h4{
     color:#009900;
+}
+
+#projects img{
+    width: 400px;
+    height:400px;
 }
 
 .email > a{
@@ -344,31 +362,12 @@ h4{
     background-color: #009900;
 }
 
-@media screen and (max-width:720px) {
-    .timeline-start{
-        background-color: transparent;
-        width:2px;
-        height:100%;
-        margin:auto;
-    }
-    
-    
-    .timeline-middle{
-        background-color: transparent;
-        width:2px;
-        height:100%;
-        margin:auto;
-    }
-    
-    .timeline-end{
-        background-color: transparent;
-        width:2px;
-        height:100%;
-        margin:auto;
-    }
+.card{
+    background-color: #009900;
+    color:white;
 }
 
-@media screen and (max-width:300px) {
+@media screen and (min-width:720px) {
     .timeline-start{
         background-color: transparent;
         width:2px;
@@ -389,5 +388,44 @@ h4{
         width:2px;
         height:100%;
         margin:auto;
+    }
+
+    #projects img{
+        width:250px;
+        height:250px;
+    }
+
+}
+
+@media screen and (min-width:300px) {
+    .timeline-start{
+        background-color: transparent;
+        width:2px;
+        height:100%;
+        margin:auto;
+    }
+    
+    
+    .timeline-middle{
+        background-color: transparent;
+        width:2px;
+        height:100%;
+        margin:auto;
+    }
+    
+    .timeline-end{
+        background-color: transparent;
+        width:2px;
+        height:100%;
+        margin:auto;
+    }
+
+    #projects img{
+        padding: 10px;
+        position: relative;
+        left: 0;
+        right: 0;
+        width:250px;
+        height:250px;
     }
 }
