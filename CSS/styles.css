@@ -11,12 +11,12 @@ html{
 body{
     font-family:"Cascadia Mono";
     color:white;
-    background-color: #1D1D1D;
+    background-color: teal;
     overflow-x: hidden;
 }
 
 nav{
-    background-color: #1D1D1D;
+    background-color: orange;
     z-index:1;
     height:100px;
 }
@@ -325,11 +325,6 @@ h4{
     color:#009900;
 }
 
-/* #projects img{
-    width: 400px;
-    height:400px;
-} */
-
 .email > a{
     text-decoration: none;
     color:white;
@@ -402,7 +397,7 @@ h4{
 
 }
 
-@media screen and (max-width:300px) {
+@media screen and (max-width:600px) {
 
     #banner img{
        display:flex;
